@@ -13,7 +13,7 @@ class UserAgent
   end
 
   module Versions
-    Chrome        = /chrome(|frame)\/([\d\w\.\-]+)/i
+    Chrome        = /chrome[a-zA-Z]{0,5}\/([\d\w\.\-]+)/i
     Safari        = /version\/([\d\w\.\-]+)/i
     Ps3           = /([\d\w\.\-]+)\)\s*$/i
     Psp           = /([\d\w\.\-]+)\)?\s*$/i
